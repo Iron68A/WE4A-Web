@@ -1,0 +1,66 @@
+/*PARAMETRE GENERAL*/
+body{
+	background-image: url(https://images.alphacoders.com/939/939304.jpg);
+	background-size: cover;
+	font-family: 'Source Code Pro', monospace;
+}
+/*NAV*/
+nav {
+	background-color: gray;
+	border-radius: 20px;
+	text-align: center;
+}
+nav>article{
+	display: inline-block;
+	font-size: 25px;
+	width: 18%;
+	text-align: center;
+	
+}
+.a{
+	text-decoration: none;
+	color: black;
+}
+.a:hover{
+	color:blue;
+}
+
+h1{
+	text-align: center;
+	color: white;
+	font-size: 35px;
+	margin-top: 2%;
+}
+
+/*texte*/
+p{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	padding: 20px 20px 20px 20px;
+	background-color: gray;
+	border-radius: 20px;
+	
+}
+.info{
+	margin: 10%;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	background-color: gray;
+	border-radius: 20px;
+	padding: 20px 20px 20px 20px;
+}
+.ph{
+	width: 90%;
+	margin:auto;
+}
+.ph>img{
+	width: 40%;
+	margin-left: 5%;
+	vertical-align: top;
+}
+.video{
+	margin-left: 10%;
+}
+

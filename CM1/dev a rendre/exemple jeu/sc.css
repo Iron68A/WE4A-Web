@@ -1,0 +1,158 @@
+/*parametre generaux*/
+body{
+	background-image: url(https://images.alphacoders.com/939/939304.jpg);
+	background-size: cover;
+	font-family: 'Source Code Pro', monospace;
+}
+/*NAV*/
+nav {
+	background-color: gray;
+	border-radius: 20px;
+	text-align: center;
+}
+nav>article{
+	display: inline-block;
+	font-size: 25px;
+	width: 18%;
+	text-align: center;
+	
+}
+.a{
+	text-decoration: none;
+	color: black;
+}
+.a:hover{
+	color:blue;
+
+}
+
+/*TITRE*/
+h1{
+	text-align: center;
+	color: white;
+	font-size: 35px;
+}
+/*SECTION COUP DE COEUR*/
+.cc{
+	width: 80%;
+	margin: auto; 
+	background-color: gray;
+	padding-bottom: 5%;
+	padding-top: 8px;
+	border-radius: 25px;
+
+}
+ul{
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 20px;
+
+}
+p{
+	background-color: lightgray;
+	padding:10px 10px 10px 10px;
+	border-radius: 25px;
+	text-align: center;
+}
+
+.info{
+	text-align: center;
+	font-size: 20px;
+	color:darkred;
+	
+}
+.info:hover{
+	color:red;
+}
+h4{
+	display: inline-block;
+	vertical-align: top;
+	padding:3px 3px 3px 3px;
+	border-radius: 20px;
+	margin: 0px;
+	background-color: lightgray;
+	
+}
+
+h2{
+	text-align: center;
+	color: red;
+	font-size: 25px;
+	border-bottom: solid black 2px;
+	border-radius: 20px;
+}
+
+.v1{
+	width: 30%;
+	display: inline-block;
+	padding-left: 2%;
+	padding-top: 1%;
+
+}
+img{
+	width: 50%;
+}
+
+.e{
+	margin-left: 25%;
+}
+
+/*SECTION NEUF*/
+
+.neuf{
+	width: 80%;
+	margin: auto; 
+	background-color: gray;
+	padding-bottom: 2%;
+	padding-top:2%;
+	border-radius: 25px;
+	margin-top: 100px;
+}
+
+h3{
+	text-align: center;
+	color: red;
+	font-size: 25px;
+	
+	border-bottom: solid black 2px;
+	border-radius: 20px;
+
+
+}
+
+.v1{
+	width: 30%;
+	display: inline-block;
+	padding-left: 2%;
+	padding-top: 1%;
+
+}
+
+footer{
+	text-align: center;
+	font-size: 20px;
+	margin-top: 5%;
+}
+
+
+/*ARTIICLE PUB*/
+.pub{
+	background-color: gray;
+	width: 8%;
+	display: block;
+	border-radius: 10px;
+	font-size: 17px;
+	padding: 5px 5px 5px 5px;
+	float: right;
+	margin-top: 15%;
+
+
+}
+
+
+
+/*
+enlever le forme des liens
+text-decoration: none;
+color: *
+*/
