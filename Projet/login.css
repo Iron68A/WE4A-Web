@@ -1,0 +1,27 @@
+body{
+    background-image: url("./images/backlog.jpg");
+    background-size: cover;
+    color:aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main{
+    margin-left: 40px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    width: 50%;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+h2{
+    margin-left: 10%;
+}
+#info{
+    width: 50%;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 5%;
+    
+}

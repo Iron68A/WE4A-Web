@@ -1,0 +1,65 @@
+/*NAV*/
+nav {
+
+	background-color: gray;
+	border-radius: 20px;
+	text-align: center;
+    padding: 5px;
+
+}
+nav>article{
+	display: inline-block;
+	font-size: 25px;
+	width: 18%;
+	text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+#status{
+    border: 0px;
+    text-align: right;
+    font-size: 20px;
+}
+html{
+    background-image: url("./images/back.jpg") ;
+    background-size: cover;
+}
+footer{
+    text-align: center;
+}
+#main{
+    margin: auto;
+    width: 80%;
+    background-color: black;
+    color: aliceblue;
+    opacity: 0.8;
+
+    border-radius: 20px;
+}
+.film{
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    margin: 10px;
+    padding: 5px;
+}
+.imgfilm{
+    width: 150px;
+    height: 200px;
+    display: inline-block;
+    margin: 2px;
+
+}
+
+.aside{
+    display: inline-block;
+    width: 80%;
+    text-align: left;
+    vertical-align: top;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+
+}
+a:hover{
+    color: lightseagreen;
+}
