@@ -4,6 +4,34 @@ body{
     color:aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+nav {
+
+	background-color: gray;
+	border-radius: 20px;
+	text-align: center;
+    padding: 5px;
+
+}
+nav>article{
+	display: inline-block;
+	font-size: 25px;
+	width: 18%;
+	text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+#status{
+    border: 0px;
+    text-align: right;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: lightseagreen;
+}
 
 #main{
     margin-left: 40px;
